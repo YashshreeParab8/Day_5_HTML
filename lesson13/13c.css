@@ -1,0 +1,75 @@
+body {
+  font-family: Arial;
+  background-color: rgb(248, 247, 247);
+}
+
+.gmail-box {
+  width: 560px; 
+  height: 175px;
+  background-color: white;
+  padding: 20px;
+}
+
+.inbox-title {
+  color: rgb(100, 100, 100);
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
+.email {
+  width: 520px;
+  height: 115px;
+  padding: 15px 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+}
+
+.profile-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  margin-right: 15px;
+}
+
+.email-details {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+
+.top-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sender {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.time {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+}
+
+.subject {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+
+.message {
+  color: rgb(100, 100, 100);
+  font-size: 19px;
+  margin-top: 4px;
+}
